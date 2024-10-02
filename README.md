@@ -8,31 +8,31 @@ This project aims to enhance learners' experience by helping them quickly discov
     - Determine popular course genres
     - Calculate the summary statistics and create visualizations of the online course enrollment dataset
     - Identify courses with the greatest number of enrolled students
-2. [Calculate Course Similarity using BoW Features](#calculate-course-similarity-using-bow-features)
+2. [Extract Bag of Words (BoW) Features from Course Textual Content](#extract-bag-of-words-bow-features-from-course-textual-content)
+    - Extract Bag of Words (BoW) features from course titles and descriptions
+    - Build a course BoW dataset to be used for building a content-based recommender system later
+3. [Calculate Course Similarity using BoW Features](#calculate-course-similarity-using-bow-features)
     - Calculate the similarity between any two courses using BoW feature vectors
-3. [Classification-based Rating Mode Prediction using Embedding Features](#classification-based-rating-mode-prediction-using-embedding-features)
+4. [Classification-based Rating Mode Prediction using Embedding Features](#classification-based-rating-mode-prediction-using-embedding-features)
     - Build classification models to predict rating modes using the combined embedding vectors
-4. [Clustering based Course Recommender System using K Nearest Neighbor](#clustering-based-course-recommender-system-using-k-nearest-neighbor)
+5. [Clustering based Course Recommender System using K Nearest Neighbor](#clustering-based-course-recommender-system-using-k-nearest-neighbor)
     - Perform k-means clustering on the original user profile feature vectors
     - Apply PCA (Principal Component Analysis) on user profile feature vectors to reduce dimensions
     - Perform k-means clustering on the PCA transformed main components
     - Generate course recommendations based on other group members' enrollment history
-5. [Collaborative Filtering Based Recommender System](#collaborative-filtering-based-recommender-system)
+6. [Collaborative Filtering Based Recommender System](#collaborative-filtering-based-recommender-system)
     - Perform KNN-based collaborative filtering on the user-item interaction matrix
-6. [Collaborative Filtering based Recommender System using Non-negative Matrix Factorization](#collaborative-filtering-based-recommender-system-using-non-negative-matrix-factorization)
+7. [Collaborative Filtering based Recommender System using Non-negative Matrix Factorization](#collaborative-filtering-based-recommender-system-using-non-negative-matrix-factorization)
     - Perform NMF-based collaborative filtering on the user-item matrix
-7. [Content-based Course Recommender System using Course Similarities](#content-based-course-recommender-system-using-course-similarities)
+8. [Content-based Course Recommender System using Course Similarities](#content-based-course-recommender-system-using-course-similarities)
     - Obtain the similarity between courses from a course similarity matrix
     - Use the course similarity matrix to find and recommend new courses that are similar to enrolled courses
-8. [Content-based Course Recommender System Using User Profile and Course Genres](#content-based-course-recommender-system-using-user-profile-and-course-genres)
+9. [Content-based Course Recommender System Using User Profile and Course Genres](#content-based-course-recommender-system-using-user-profile-and-course-genres)
     - Generate a user profile based on course genres and ratings
     - Generate course recommendations based on a user's profile and course genres
-9. [Course Rating Prediction using Neural Networks](#course-rating-prediction-using-neural-networks)
+10. [Course Rating Prediction using Neural Networks](#course-rating-prediction-using-neural-networks)
     - Use `tensorflow` to train neural networks to extract the user and item latent features from the hidden layers
     - Predict course ratings with trained neural networks
-10. [Extract Bag of Words (BoW) Features from Course Textual Content](#extract-bag-of-words-bow-features-from-course-textual-content)
-    - Extract Bag of Words (BoW) features from course titles and descriptions
-    - Build a course BoW dataset to be used for building a content-based recommender system later
 11. [Regression-Based Rating Score Prediction Using Embedding Features](#regression-based-rating-score-prediction-using-embedding-features)
     - Build regression models to predict ratings using the combined embedding vectors
 
