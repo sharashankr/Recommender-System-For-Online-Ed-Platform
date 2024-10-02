@@ -2,6 +2,7 @@
 This project aims to enhance learners' experience by helping them quickly discover new courses of interest and improve their learning paths. Increased interaction through the recommender systems may also boost company revenue. The focus is on exploring and comparing machine learning models to identify the best-performing one in offline evaluations.
 
 The project focuses on several key areas, including collecting and analyzing data from online course enrollment datasets and performing exploratory data analysis. It involves extracting Bag of Words (BoW) features from course content and calculating course similarity based on these features. The project also aims to develop content-based recommender systems using unsupervised learning techniques such as distance/similarity measurements, K-means, and Principal Component Analysis (PCA). Additionally, collaborative-filtering recommender systems will be built using supervised learning algorithms like K-Nearest Neighbors, Non-negative Matrix Factorization (NMF), Neural Networks, Linear Regression, Logistic Regression, and Random Forest.
+![image](https://github.com/user-attachments/assets/a399aa6d-710c-4a6e-8b87-ba94615b2a7b)
 
 ## Table of Contents
 1. [Exploratory Data Analysis on Online Course Enrollment Data](#exploratory-data-analysis-on-online-course-enrollment-data)
