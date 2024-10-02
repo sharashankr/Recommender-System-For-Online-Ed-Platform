@@ -1,15 +1,7 @@
 # Recommender-System-For-Online-Ed-Platform
 This project aims to enhance learners' experience by helping them quickly discover new courses of interest and improve their learning paths. Increased interaction through the recommender systems may also boost company revenue. The focus is on exploring and comparing machine learning models to identify the best-performing one in offline evaluations.
 
-More specifically, the project focuses on the following:
-    Collecting and understanding data
-    Performing exploratory data analysis on online course enrollments datasets
-    Extracting Bag of Words (BoW) features from course textual content
-    Calculating course similarity using BoW features
-    Building content-based recommender systems using various unsupervised learning algorithms, such as:
-    Distance/Similarity measurements, K-means, Principal Component Analysis (PCA), etc.
-    Building collaborative-filtering recommender systems using various supervised learning algorithms
-    K Nearest Neighbors, Non-negative Matrix Factorization (NMF), Neural Networks, Linear Regression, Logistic Regression, RandomForest, etc.
+The project focuses on several key areas, including collecting and analyzing data from online course enrollment datasets and performing exploratory data analysis. It involves extracting Bag of Words (BoW) features from course content and calculating course similarity based on these features. The project also aims to develop content-based recommender systems using unsupervised learning techniques such as distance/similarity measurements, K-means, and Principal Component Analysis (PCA). Additionally, collaborative-filtering recommender systems will be built using supervised learning algorithms like K-Nearest Neighbors, Non-negative Matrix Factorization (NMF), Neural Networks, Linear Regression, Logistic Regression, and Random Forest.
 
 ## Table of Contents
 1. [Exploratory Data Analysis on Online Course Enrollment Data](#exploratory-data-analysis-on-online-course-enrollment-data)
